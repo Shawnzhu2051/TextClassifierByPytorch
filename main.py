@@ -44,5 +44,7 @@ if __name__ == '__main__':
     if not isPathExit:
         preprcess.datasetPrepare()
         print("build success")
+        AT = preprcess.getAccessToken()
+        preprcess.lexer(AT)
     else:
-        print("not build")
+        print("build already finish")

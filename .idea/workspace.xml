@@ -2,7 +2,665 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0707f7-8634-4bb6-a893-26824e7d796b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Preprocess.py" afterPath="$PROJECT_DIR$/Preprocess.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_285.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_285.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_286.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_286.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_287.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_287.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_288.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_288.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_289.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_289.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_290.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_290.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_291.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_291.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_292.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_292.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_293.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_293.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_294.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_294.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_295.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_295.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_296.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_296.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_297.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_297.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_298.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_298.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_299.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_299.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_300.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_300.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_301.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_301.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_302.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_302.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_303.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_303.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_304.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_304.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_305.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_305.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_306.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_306.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_307.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_307.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_308.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_308.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_309.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_309.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_310.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_310.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_311.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_311.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_312.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_312.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_313.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_313.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_314.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_314.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_315.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_315.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_316.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_316.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_317.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_317.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_318.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_318.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_319.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_319.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_320.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_320.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_321.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_321.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_322.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_322.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_323.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_323.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_324.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_324.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_325.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_325.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_326.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_326.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_327.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_327.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_328.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_328.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_329.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_329.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_330.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_330.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_331.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_331.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_332.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_332.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_333.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_333.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_334.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_334.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_335.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_335.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_336.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_336.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_337.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_337.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_338.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_338.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_339.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_339.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_340.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_340.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_341.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_341.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_342.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_342.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_343.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_343.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_344.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_344.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_345.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_345.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_346.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_346.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_347.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_347.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_348.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_348.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_349.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_349.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_350.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_350.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/10_静电场/text_351.txt" afterPath="$PROJECT_DIR$/data/10_静电场/text_351.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_352.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_352.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_353.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_353.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_354.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_354.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_355.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_355.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_356.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_356.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_357.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_357.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_358.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_358.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_359.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_359.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_360.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_360.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_361.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_361.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_362.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_362.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_363.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_363.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_364.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_364.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_365.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_365.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_366.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_366.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_367.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_367.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_368.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_368.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_369.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_369.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_370.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_370.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_371.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_371.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_372.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_372.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_373.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_373.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_374.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_374.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_375.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_375.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_376.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_376.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_377.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_377.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_378.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_378.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_379.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_379.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_380.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_380.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_381.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_381.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/11_稳恒电流/text_382.txt" afterPath="$PROJECT_DIR$/data/11_稳恒电流/text_382.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_383.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_383.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_384.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_384.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_385.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_385.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_386.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_386.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_387.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_387.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_388.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_388.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_389.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_389.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_390.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_390.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_391.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_391.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_392.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_392.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_393.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_393.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_394.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_394.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_395.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_395.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_396.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_396.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_397.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_397.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_398.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_398.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_399.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_399.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_400.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_400.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_401.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_401.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_402.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_402.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_403.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_403.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_404.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_404.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_405.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_405.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_406.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_406.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_407.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_407.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_408.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_408.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_409.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_409.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_410.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_410.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_411.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_411.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_412.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_412.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_413.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_413.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_414.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_414.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_415.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_415.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_416.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_416.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_417.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_417.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_418.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_418.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_419.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_419.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_420.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_420.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_421.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_421.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_422.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_422.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_423.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_423.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/12_磁场/text_424.txt" afterPath="$PROJECT_DIR$/data/12_磁场/text_424.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_425.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_425.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_426.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_426.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_427.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_427.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_428.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_428.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_429.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_429.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_430.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_430.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_431.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_431.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_432.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_432.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_433.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_433.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_434.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_434.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_435.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_435.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_436.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_436.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_437.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_437.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_438.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_438.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_439.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_439.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_440.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_440.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_441.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_441.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_442.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_442.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_443.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_443.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_444.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_444.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_445.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_445.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_446.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_446.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_447.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_447.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_448.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_448.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_449.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_449.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_450.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_450.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_451.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_451.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_452.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_452.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_453.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_453.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_454.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_454.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_455.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_455.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_456.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_456.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_457.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_457.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_458.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_458.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_459.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_459.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_460.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_460.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/13_电磁感应/text_461.txt" afterPath="$PROJECT_DIR$/data/13_电磁感应/text_461.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_462.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_462.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_463.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_463.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_464.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_464.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_465.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_465.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_466.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_466.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_467.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_467.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_468.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_468.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_469.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_469.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_470.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_470.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_471.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_471.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_472.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_472.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_473.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_473.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_474.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_474.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_475.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_475.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_476.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_476.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_477.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_477.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_478.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_478.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_479.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_479.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_480.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_480.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_481.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_481.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_482.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_482.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_483.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_483.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_484.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_484.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_485.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_485.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_486.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_486.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_487.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_487.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_488.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_488.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_489.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_489.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_490.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_490.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_491.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_491.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_492.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_492.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_493.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_493.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_494.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_494.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_495.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_495.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_496.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_496.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_497.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_497.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_498.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_498.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_499.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_499.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_500.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_500.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_501.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_501.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_502.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_502.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_503.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_503.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_504.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_504.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_505.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_505.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/14_交变电流/text_506.txt" afterPath="$PROJECT_DIR$/data/14_交变电流/text_506.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/15_传感器/text_507.txt" afterPath="$PROJECT_DIR$/data/15_传感器/text_507.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/15_传感器/text_508.txt" afterPath="$PROJECT_DIR$/data/15_传感器/text_508.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/15_传感器/text_509.txt" afterPath="$PROJECT_DIR$/data/15_传感器/text_509.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_510.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_510.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_511.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_511.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_512.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_512.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_513.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_513.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_514.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_514.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_515.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_515.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_516.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_516.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_517.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_517.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_518.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_518.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_519.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_519.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_520.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_520.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_521.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_521.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_522.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_522.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_523.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_523.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_524.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_524.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_525.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_525.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_526.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_526.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/16_分子动理论/text_527.txt" afterPath="$PROJECT_DIR$/data/16_分子动理论/text_527.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_528.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_528.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_529.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_529.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_530.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_530.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_531.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_531.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_532.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_532.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_533.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_533.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_534.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_534.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_535.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_535.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_536.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_536.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_537.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_537.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_538.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_538.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_539.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_539.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_540.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_540.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_541.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_541.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/17_理想气体/text_542.txt" afterPath="$PROJECT_DIR$/data/17_理想气体/text_542.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/18_物态和物态变化/text_543.txt" afterPath="$PROJECT_DIR$/data/18_物态和物态变化/text_543.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/18_物态和物态变化/text_544.txt" afterPath="$PROJECT_DIR$/data/18_物态和物态变化/text_544.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/18_物态和物态变化/text_545.txt" afterPath="$PROJECT_DIR$/data/18_物态和物态变化/text_545.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/18_物态和物态变化/text_546.txt" afterPath="$PROJECT_DIR$/data/18_物态和物态变化/text_546.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_547.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_547.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_548.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_548.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_549.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_549.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_550.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_550.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_551.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_551.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_552.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_552.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_553.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_553.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_554.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_554.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_555.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_555.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_556.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_556.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_557.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_557.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_558.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_558.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/19_热力学定律/text_559.txt" afterPath="$PROJECT_DIR$/data/19_热力学定律/text_559.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_0.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_1.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_10.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_11.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_11.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_12.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_12.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_13.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_13.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_14.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_2.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_3.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_4.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_5.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_6.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_7.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_8.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1_运动的描述/text_9.txt" afterPath="$PROJECT_DIR$/data/1_运动的描述/text_9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/20_热机、制冷机/text_560.txt" afterPath="$PROJECT_DIR$/data/20_热机、制冷机/text_560.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/20_热机、制冷机/text_561.txt" afterPath="$PROJECT_DIR$/data/20_热机、制冷机/text_561.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/20_热机、制冷机/text_562.txt" afterPath="$PROJECT_DIR$/data/20_热机、制冷机/text_562.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/20_热机、制冷机/text_563.txt" afterPath="$PROJECT_DIR$/data/20_热机、制冷机/text_563.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/20_热机、制冷机/text_564.txt" afterPath="$PROJECT_DIR$/data/20_热机、制冷机/text_564.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_565.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_565.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_566.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_566.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_567.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_567.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_568.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_568.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_569.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_569.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_570.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_570.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_571.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_571.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_572.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_572.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_573.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_573.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_574.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_574.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_575.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_575.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_576.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_576.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_577.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_577.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_578.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_578.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_579.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_579.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/21_几何光学/text_580.txt" afterPath="$PROJECT_DIR$/data/21_几何光学/text_580.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_581.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_581.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_582.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_582.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_583.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_583.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_584.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_584.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_585.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_585.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_586.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_586.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_587.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_587.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_588.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_588.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_589.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_589.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_590.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_590.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_591.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_591.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_592.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_592.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/22_物理光学/text_593.txt" afterPath="$PROJECT_DIR$/data/22_物理光学/text_593.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_594.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_594.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_595.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_595.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_596.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_596.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_597.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_597.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_598.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_598.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_599.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_599.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_600.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_600.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_601.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_601.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_602.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_602.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_603.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_603.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_604.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_604.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_605.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_605.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_606.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_606.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_607.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_607.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_608.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_608.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_609.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_609.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_610.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_610.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/23_波粒二象性/text_611.txt" afterPath="$PROJECT_DIR$/data/23_波粒二象性/text_611.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_612.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_612.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_613.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_613.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_614.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_614.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_615.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_615.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_616.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_616.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_617.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_617.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_618.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_618.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_619.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_619.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_620.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_620.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_621.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_621.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/24_原子结构/text_622.txt" afterPath="$PROJECT_DIR$/data/24_原子结构/text_622.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_623.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_623.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_624.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_624.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_625.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_625.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_626.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_626.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_627.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_627.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_628.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_628.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_629.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_629.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_630.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_630.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_631.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_631.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_632.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_632.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_633.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_633.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_634.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_634.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_635.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_635.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/25_原子核/text_636.txt" afterPath="$PROJECT_DIR$/data/25_原子核/text_636.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/26_相对论简介/text_637.txt" afterPath="$PROJECT_DIR$/data/26_相对论简介/text_637.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/26_相对论简介/text_638.txt" afterPath="$PROJECT_DIR$/data/26_相对论简介/text_638.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/26_相对论简介/text_639.txt" afterPath="$PROJECT_DIR$/data/26_相对论简介/text_639.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/27_物理学史/text_640.txt" afterPath="$PROJECT_DIR$/data/27_物理学史/text_640.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/28_物理方法/text_641.txt" afterPath="$PROJECT_DIR$/data/28_物理方法/text_641.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/28_物理方法/text_642.txt" afterPath="$PROJECT_DIR$/data/28_物理方法/text_642.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/28_物理方法/text_643.txt" afterPath="$PROJECT_DIR$/data/28_物理方法/text_643.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/28_物理方法/text_644.txt" afterPath="$PROJECT_DIR$/data/28_物理方法/text_644.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/28_物理方法/text_645.txt" afterPath="$PROJECT_DIR$/data/28_物理方法/text_645.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/28_物理方法/text_646.txt" afterPath="$PROJECT_DIR$/data/28_物理方法/text_646.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/28_物理方法/text_647.txt" afterPath="$PROJECT_DIR$/data/28_物理方法/text_647.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/28_物理方法/text_648.txt" afterPath="$PROJECT_DIR$/data/28_物理方法/text_648.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/29_单位制及量纲/text_649.txt" afterPath="$PROJECT_DIR$/data/29_单位制及量纲/text_649.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_15.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_16.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_16.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_17.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_17.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_18.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_18.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_19.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_19.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_20.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_20.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_21.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_22.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_22.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_23.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_23.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_24.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_24.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_25.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_25.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_26.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_26.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_27.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_27.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_28.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_28.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_29.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_29.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_30.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_31.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_31.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_32.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_32.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_33.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_33.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_34.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_34.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_35.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_35.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_36.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_36.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_37.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_37.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_38.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_38.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_39.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_39.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_40.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_40.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_41.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_41.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_42.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_42.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_43.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_43.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_44.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_44.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_45.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_45.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_46.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_46.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_47.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_47.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_48.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_48.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_49.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_49.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_50.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_51.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_51.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_52.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_52.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_53.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_53.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/2_直线运动/text_54.txt" afterPath="$PROJECT_DIR$/data/2_直线运动/text_54.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/30_当代社会热点问题/text_650.txt" afterPath="$PROJECT_DIR$/data/30_当代社会热点问题/text_650.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/31_物理实验/text_651.txt" afterPath="$PROJECT_DIR$/data/31_物理实验/text_651.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/31_物理实验/text_652.txt" afterPath="$PROJECT_DIR$/data/31_物理实验/text_652.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/31_物理实验/text_653.txt" afterPath="$PROJECT_DIR$/data/31_物理实验/text_653.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/31_物理实验/text_654.txt" afterPath="$PROJECT_DIR$/data/31_物理实验/text_654.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_55.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_55.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_56.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_56.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_57.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_57.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_58.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_58.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_59.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_59.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_60.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_60.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_61.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_61.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_62.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_62.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_63.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_63.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_64.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_64.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_65.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_65.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_66.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_66.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_67.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_67.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_68.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_68.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_69.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_69.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_70.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_70.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_71.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_71.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_72.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_72.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_73.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_73.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_74.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_74.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_75.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_75.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_76.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_76.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_77.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_77.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_78.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_78.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_79.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_79.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_80.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_80.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_81.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_81.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_82.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_82.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_83.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_83.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_84.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_84.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3_相互作用/text_85.txt" afterPath="$PROJECT_DIR$/data/3_相互作用/text_85.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_100.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_101.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_101.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_102.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_102.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_103.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_103.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_104.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_104.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_105.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_105.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_106.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_106.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_86.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_86.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_87.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_87.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_88.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_88.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_89.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_89.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_90.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_90.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_91.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_91.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_92.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_92.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_93.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_93.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_94.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_94.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_95.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_95.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_96.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_96.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_97.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_97.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_98.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_98.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/4_牛顿运动定律/text_99.txt" afterPath="$PROJECT_DIR$/data/4_牛顿运动定律/text_99.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_107.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_107.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_108.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_108.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_109.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_109.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_110.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_110.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_111.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_111.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_112.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_112.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_113.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_113.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_114.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_114.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_115.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_115.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_116.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_116.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_117.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_117.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_118.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_118.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_119.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_119.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_120.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_120.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_121.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_121.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_122.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_122.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_123.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_123.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_124.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_124.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_125.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_125.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_126.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_126.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_127.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_127.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_128.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_128.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_129.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_129.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_130.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_130.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_131.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_131.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_132.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_132.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_133.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_133.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_134.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_134.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_135.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_135.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_136.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_136.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_137.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_137.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_138.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_138.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_139.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_139.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_140.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_140.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_141.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_141.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_142.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_142.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_143.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_143.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_144.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_144.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_145.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_145.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_146.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_146.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_147.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_147.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_148.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_148.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_149.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_149.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/5_曲线运动/text_150.txt" afterPath="$PROJECT_DIR$/data/5_曲线运动/text_150.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_151.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_151.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_152.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_152.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_153.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_153.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_154.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_154.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_155.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_155.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_156.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_156.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_157.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_157.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_158.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_158.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_159.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_159.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_160.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_160.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_161.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_161.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_162.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_162.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_163.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_163.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_164.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_164.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_165.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_165.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_166.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_166.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_167.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_167.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_168.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_168.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_169.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_169.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_170.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_170.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_171.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_171.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_172.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_172.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_173.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_173.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_174.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_174.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_175.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_175.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_176.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_176.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_177.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_177.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_178.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_178.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/6_万有引力与航天/text_179.txt" afterPath="$PROJECT_DIR$/data/6_万有引力与航天/text_179.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_180.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_180.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_181.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_181.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_182.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_182.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_183.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_183.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_184.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_184.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_185.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_185.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_186.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_186.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_187.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_187.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_188.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_188.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_189.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_189.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_190.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_191.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_191.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_192.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_192.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_193.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_193.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_194.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_194.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_195.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_195.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_196.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_196.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_197.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_197.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_198.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_198.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_199.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_199.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_200.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_200.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_201.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_201.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_202.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_202.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_203.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_203.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_204.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_204.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_205.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_205.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_206.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_206.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_207.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_207.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_208.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_208.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_209.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_209.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_210.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_210.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_211.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_211.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_212.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_212.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_213.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_213.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_214.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_214.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_215.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_215.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_216.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_216.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_217.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_217.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_218.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_218.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_219.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_219.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_220.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_220.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_221.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_221.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_222.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_222.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_223.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_223.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_224.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_224.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_225.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_225.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_226.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_226.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_227.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_227.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_228.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_228.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_229.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_229.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/7_功和能/text_230.txt" afterPath="$PROJECT_DIR$/data/7_功和能/text_230.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_231.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_231.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_232.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_232.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_233.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_233.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_234.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_234.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_235.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_235.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_236.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_236.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_237.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_237.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_238.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_238.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_239.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_239.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_240.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_240.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_241.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_241.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_242.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_242.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_243.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_243.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_244.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_244.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_245.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_245.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_246.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_246.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_247.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_247.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_248.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_248.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_249.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_249.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_250.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_250.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_251.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_251.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/8_动量/text_252.txt" afterPath="$PROJECT_DIR$/data/8_动量/text_252.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_253.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_253.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_254.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_254.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_255.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_255.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_256.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_256.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_257.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_257.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_258.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_258.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_259.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_259.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_260.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_260.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_261.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_261.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_262.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_262.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_263.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_263.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_264.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_264.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_265.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_265.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_266.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_266.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_267.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_267.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_268.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_268.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_269.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_269.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_270.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_270.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_271.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_271.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_272.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_272.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_273.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_273.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_274.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_274.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_275.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_275.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_276.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_276.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_277.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_277.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_278.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_278.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_279.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_279.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_280.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_280.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_281.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_281.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_282.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_282.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_283.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_283.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/9_机械振动与机械波/text_284.txt" afterPath="$PROJECT_DIR$/data/9_机械振动与机械波/text_284.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +670,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TextClassifierByPytorch$main.coverage" NAME="main Coverage Results" MODIFIED="1529475702937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextClassifierByPytorch$main.coverage" NAME="main Coverage Results" MODIFIED="1529546605343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextClassifierByPytorch$Preprocess.coverage" NAME="Preprocess Coverage Results" MODIFIED="1529474889269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -21,8 +679,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="721">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -33,8 +691,8 @@
       <file leaf-file-name="Preprocess.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="631">
+              <caret line="85" column="12" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -51,14 +709,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gbk</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Preprocess.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Preprocess.py" />
       </list>
     </option>
   </component>
@@ -125,25 +788,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TextClassifierByPytorch" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Preprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,6 +802,25 @@
       <module name="TextClassifierByPytorch" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Preprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TextClassifierByPytorch" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,8 +969,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Preprocess" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Preprocess" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -329,19 +992,29 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987952" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39638555" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -349,7 +1022,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -373,10 +1045,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="721">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -385,8 +1081,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="631">
+          <caret line="85" column="12" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
           </folding>

@@ -1,6 +1,6 @@
 ## 使用神经网络和NLP技术实现的高中物理知识点分类
 
-在实现过程中主要参考了[这篇文章](https://www.leiphone.com/news/201705/4CFBFH5szAubNQiK.html
+在实现过程中主要参考了[这篇文章](https://www.leiphone.com/news/201705/4CFBFH5szAubNQiK.html)
 
 **预处理**
 
