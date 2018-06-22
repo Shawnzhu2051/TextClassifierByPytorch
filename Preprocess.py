@@ -9,6 +9,11 @@ import urllib.request
 import urllib.error
 
 class Preprocess:
+    single_word_count = 0
+    total_word_count = 0
+    total_doc_count = 0
+    contain_doc_count = 0
+    total_word_list = []
     def __init__(self):
         pass
 
@@ -59,7 +64,7 @@ class Preprocess:
             for f in files:
                 with open(os.path.join(root, f),'r+',encoding='utf-8') as datafile:
                     str = datafile.read()
-                    print(str)
+                    #print(str)
                     info = {
                         'text': str
                     }
@@ -68,22 +73,30 @@ class Preprocess:
                     while (1):
                         try:
                             req = urllib.request.Request(url=lexer_url, data=dic_info.encode('gbk'), headers=headers)
-                            response = urllib.request.urlopen(req, timeout=5)
+                            response = urllib.request.urlopen(req, timeout=2)
                             break
                         except urllib.error.URLError as e:
                             print('except:', e)
                         except urllib.error.HTTPError as e:
                             print('except:', e)
                     response = eval(response.read().strip())
-                    datafile.truncate(0)
+                    #datafile.truncate(0)
                     for items in response['items']:
                         if (items['pos'] != 'w'):
-                            datafile.writelines(items['item'])
-                            datafile.writelines('\n')
+                            #datafile.writelines(items['item'])
+                            #datafile.writelines('\n')
+                            self.total_word_list.append(items['item'])
                     print(os.path.join(root, f) + ' finish')
+        self.total_word_list = list(set(self.total_word_list))
+        with open('total_word_list.txt', 'w', encoding='utf-8', errors='ignore') as word_list_file:
+            for line in self.total_word_list:
+                if(not(line == ' ')):
+                    word_list_file.writelines(line)
+                    word_list_file.writelines('\n')
+        print('write down')
 
     def dictGenerate(self):
-        pass
+        print('Start dictionary generate')
 
 
     def wordbagGenerate(self):

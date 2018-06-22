@@ -48,3 +48,4 @@ if __name__ == '__main__':
         preprcess.lexer(AT)
     else:
         print("build already finish")
+    preprcess.dictGenerate()
