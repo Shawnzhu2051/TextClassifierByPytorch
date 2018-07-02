@@ -43,9 +43,15 @@ if __name__ == '__main__':
     isPathExit = os.path.exists(path)
     if not isPathExit:
         preprcess.datasetPrepare()
+        print(preprcess.label_list)
         print("build success")
         AT = preprcess.getAccessToken()
         preprcess.lexer(AT)
     else:
         print("build already finish")
-    preprcess.dictGenerate()
+    if(len(preprcess.total_word_set) == 0):
+        preprcess.ifSave()
+    for item in preprcess.total_word_set:
+        preprcess.TF_IDF_dict[item] = preprcess.TF_IDF(item)
+    print(preprcess.TF_IDF_dict)
+    print(len(preprcess.TF_IDF_dict))

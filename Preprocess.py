@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import division
 import csv
 import os
 import math
@@ -9,11 +10,12 @@ import urllib.request
 import urllib.error
 
 class Preprocess:
-    single_word_count = 0
-    total_word_count = 0
-    total_doc_count = 0
-    contain_doc_count = 0
     total_word_list = []
+    total_word_dict = {}
+    total_word_set = []
+    TF_IDF_dict = {}
+    vec_list = []
+    label_list = []
     def __init__(self):
         pass
 
@@ -32,6 +34,7 @@ class Preprocess:
                 else:
                     pass
                 foldername = path + "/text_" + str(index) + ".txt"
+                self.label_list.append(class_index)
                 index += 1
                 with open(foldername, "w", encoding='utf-8') as writeholder:
                     for items in line:
@@ -55,7 +58,6 @@ class Preprocess:
             return False
 
     def lexer(self,AT):
-
         print('Start lexer')
         #print(AT)
         lexer_url = 'https://aip.baidubce.com/rpc/2.0/nlp/v1/lexer' + '?charset=UTF-8&access_token=' + AT
@@ -73,31 +75,61 @@ class Preprocess:
                     while (1):
                         try:
                             req = urllib.request.Request(url=lexer_url, data=dic_info.encode('gbk'), headers=headers)
-                            response = urllib.request.urlopen(req, timeout=2)
+                            response = urllib.request.urlopen(req, timeout=5)
                             break
                         except urllib.error.URLError as e:
                             print('except:', e)
-                        except urllib.error.HTTPError as e:
-                            print('except:', e)
                     response = eval(response.read().strip())
-                    #datafile.truncate(0)
+                    sinlge_doc_word_list = []
                     for items in response['items']:
                         if (items['pos'] != 'w'):
-                            #datafile.writelines(items['item'])
-                            #datafile.writelines('\n')
                             self.total_word_list.append(items['item'])
+                            sinlge_doc_word_list.append(items['item'])
+                    self.total_word_dict.update({f:sinlge_doc_word_list})
                     print(os.path.join(root, f) + ' finish')
-        self.total_word_list = list(set(self.total_word_list))
-        with open('total_word_list.txt', 'w', encoding='utf-8', errors='ignore') as word_list_file:
-            for line in self.total_word_list:
-                if(not(line == ' ')):
-                    word_list_file.writelines(line)
-                    word_list_file.writelines('\n')
-        print('write down')
+        self.total_word_set = list(set(self.total_word_list))
+        with open('total_word_set.txt','w',encoding='utf-8', errors='ignore') as total_word_set_file:
+            for item in self.total_word_set:
+                total_word_set_file.writelines(item)
+                #total_word_set_file.writelines('\n')
+        with open('total_word_list.txt','w',encoding='utf-8', errors='ignore') as total_word_list_file:
+            for item in self.total_word_list:
+                total_word_list_file.writelines(item)
+                #total_word_list_file.writelines('\n')
 
-    def dictGenerate(self):
-        print('Start dictionary generate')
+    def ifSave(self):
+        with open('total_word_set.txt','r',encoding='utf-8', errors='ignore') as total_word_set_file:
+            for item in total_word_set_file:
+                self.total_word_set.append(item)
+        with open('total_word_list.txt','r',encoding='utf-8', errors='ignore') as total_word_list_file:
+            for item in total_word_list_file:
+                self.total_word_list.append(item)
 
+    def TF_IDF(self,str):
+        single_word_count = 0
+        total_word_count = 7494
+        TF = 0
+        total_doc_count = 655
+        contain_doc_count = 0
+        IDF = 0
+        single_word_count = 0
+        for item in self.total_word_list:
+            if(item == str):
+                single_word_count += 1
+        TF = single_word_count/total_word_count
+        for title, content_list in self.total_word_dict.items():
+            if str in content_list:
+                contain_doc_count += 1
+        IDF = contain_doc_count/total_doc_count
+        #print(str)
+        #print(TF*IDF)
+        return TF*IDF
 
     def wordbagGenerate(self):
-        pass
+        print('start wordbag generate')
+        length = len(self.total_word_set)
+        print(length)
+        np.zeros([31,length])
+        list_dirs = os.walk("data")
+        for root, dirs, files in list_dirs:
+            pass
