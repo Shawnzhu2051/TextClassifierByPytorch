@@ -16,6 +16,8 @@ class Preprocess:
     TF_IDF_dict = {}
     vec_list = []
     label_list = []
+    wordbag = np.zeros([655,1001])
+
     def __init__(self):
         pass
 
@@ -88,6 +90,7 @@ class Preprocess:
                     self.total_word_dict.update({f:sinlge_doc_word_list})
                     print(os.path.join(root, f) + ' finish')
         self.total_word_set = list(set(self.total_word_list))
+        '''
         with open('total_word_set.txt','w',encoding='utf-8', errors='ignore') as total_word_set_file:
             for item in self.total_word_set:
                 total_word_set_file.writelines(item)
@@ -96,14 +99,14 @@ class Preprocess:
             for item in self.total_word_list:
                 total_word_list_file.writelines(item)
                 #total_word_list_file.writelines('\n')
-
-    def ifSave(self):
-        with open('total_word_set.txt','r',encoding='utf-8', errors='ignore') as total_word_set_file:
-            for item in total_word_set_file:
-                self.total_word_set.append(item)
-        with open('total_word_list.txt','r',encoding='utf-8', errors='ignore') as total_word_list_file:
-            for item in total_word_list_file:
-                self.total_word_list.append(item)
+        '''
+    def Save(self):
+        with open('wordbag.csv', 'w', encoding='utf-8', errors='ignore') as wordbag_file:
+            writer = csv.writer(wordbag_file)
+            writer.writerow(self.wordbag)
+        with open('total_word_list.csv', 'w', encoding='utf-8', errors='ignore') as label_list_file:
+            writer = csv.writer(label_list_file)
+            writer.writerow(self.label_list)
 
     def TF_IDF(self,str):
         single_word_count = 0
@@ -127,9 +130,16 @@ class Preprocess:
 
     def wordbagGenerate(self):
         print('start wordbag generate')
-        length = len(self.total_word_set)
-        print(length)
-        np.zeros([31,length])
-        list_dirs = os.walk("data")
-        for root, dirs, files in list_dirs:
-            pass
+        print('----------------------')
+        with open("knowledgeTree.csv", "rU", encoding='gbk') as fileholder:
+            reader = csv.reader(fileholder)
+            line_index = 0
+            for line in reader:
+                for item in line:
+                    col_index = 0
+                    for word in self.total_word_set:
+                        if word in item:
+                            self.wordbag[line_index][col_index] += 1
+                        col_index += 1
+                line_index += 1
+        print(self.wordbag)
