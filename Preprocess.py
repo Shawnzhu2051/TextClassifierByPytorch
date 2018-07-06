@@ -126,7 +126,7 @@ class Preprocess:
         IDF = contain_doc_count/total_doc_count
         #print(str)
         #print(TF*IDF)
-        return TF*IDF
+        return math.log(TF*IDF)
 
     def wordbagGenerate(self):
         print('start wordbag generate')
